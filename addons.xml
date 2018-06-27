@@ -2,11 +2,11 @@
 <addons>
 <addon id="plugin.video.MaverickTV"
        name="[COLOR lime]Maverick TV[/COLOR]"
-       version="9.1.4.1"
+       version="9.1.4.2"
        provider-name="Maverick">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -23,6 +23,7 @@
     <import addon="script.module.python.koding.aio" version="0.9.6.6"/>
     <import addon="script.module.web-pdb" version="1.0"/>
     <import addon="script.module.ATFmobdro" />
+    <import addon="script.module.jokerHD" />
 
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
