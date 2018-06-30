@@ -68,7 +68,7 @@
 </addon>
 <addon id="plugin.video.JokerSports"
        name="[COLORlime]Joker Sports[/COLOR]"
-       version="2.2.4"
+       version="2.2.5"
        provider-name="Maverick">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -85,7 +85,10 @@
 	<import addon="script.module.jokerHD" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
+    <provides>audio video</provides>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>false</reuselanguageinvoker>
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
