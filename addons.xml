@@ -68,7 +68,7 @@
 </addon>
 <addon id="plugin.video.JokerSports"
        name="[COLORlime]Joker Sports[/COLOR]"
-       version="2.2.6"
+       version="2.2.7"
        provider-name="Maverick">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -79,6 +79,7 @@
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
 	<import addon="plugin.video.youtube" version="3.0.0"/>
+	<import addon="script.module.dateutil" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.resolveurl" />
 	<import addon="script.module.ATFlive" />
