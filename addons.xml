@@ -37,7 +37,7 @@
 </addon>
 <addon id="plugin.video.AtTheFlix"
        name="[COLORred]At The Flix[/COLOR]"
-       version="5.0.7.3"
+       version="5.0.7.4"
        provider-name="Maverick">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -52,6 +52,7 @@
         <import addon="script.module.resolveurl" />
 	<import addon="script.module.ATFlive" />
 	<import addon="script.module.ATFmobdro" />
+	<import addon="script.module.ATFTV" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>audio video</provides>
