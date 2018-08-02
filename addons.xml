@@ -68,7 +68,7 @@
 </addon>
 <addon id="plugin.video.JokerSports"
        name="[COLORlime]Joker Sports[/COLOR]"
-       version="2.2.8"
+       version="2.2.9"
        provider-name="Maverick">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -85,6 +85,7 @@
 	<import addon="script.module.ATFlive" />
 	<import addon="script.module.jokerHD" />
 	<import addon="script.module.ATFmobdro" />
+	<import addon="script.module.ATFTV" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>audio video</provides>
