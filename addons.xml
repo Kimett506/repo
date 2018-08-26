@@ -103,7 +103,7 @@
 </addon>
 <addon id="plugin.video.SkyNet"
        name="[COLOR white]SkyNet[/COLOR]"
-       version="5.0.1"
+       version="5.0.2"
        provider-name="SkyNet">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
