@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.MaverickTV"
        name="[COLOR lime]Maverick TV[/COLOR]"
-       version="9.1.4.3"
+       version="9.1.4.4"
        provider-name="Maverick">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -37,7 +37,7 @@
 </addon>
 <addon id="plugin.video.AtTheFlix"
        name="[COLORred]At The Flix[/COLOR]"
-       version="5.0.7.7"
+       version="5.0.7.8"
        provider-name="Maverick">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
