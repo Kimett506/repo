@@ -17,7 +17,7 @@
     <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.resolveurl" version="5.0.00"/>
+    <import addon="script.module.resolveurl" version="5.0.00"/>
 	
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
