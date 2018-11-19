@@ -389,7 +389,7 @@
     <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
   </extension>
 </addon>
-	<addon id="plugin.program.MaverickWizard" name="Maverick Wizard" version="2.0.8" provider-name="Maverick TV">
+<addon id="plugin.program.MaverickWizard" name="Maverick Wizard" version="2.1.1" provider-name="Maverick TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
