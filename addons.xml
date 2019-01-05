@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.MaverickTV" name="[COLORlime]Maverick TV[/COLOR]" version="9.1.5.5" provider-name="Maverick">
+<addon id="plugin.video.MaverickTV" name="[COLORlime]Maverick TV[/COLOR]" version="9.1.5.6" provider-name="Maverick">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -21,39 +21,6 @@
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>audio video</provides>
     </extension>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>audio video</provides>
-    </extension>
-	<extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>false</reuselanguageinvoker>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-       <summary lang="en">Maverick TV</summary>
-    <description lang="en">Maverick TV</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-<addon id="plugin.video.AtTheFlix"
-       name="[COLORred]At The Flix[/COLOR]"
-       version="5.0.8.2"
-       provider-name="Maverick">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-	<import addon="plugin.video.youtube" version="3.0.0"/>
-	<import addon="script.module.dateutil" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.resolveurl" />
-	<import addon="script.module.ATFlive" />
-	<import addon="script.module.ATFmobdro" />
-	<import addon="script.module.ATFTV" />
-    </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>audio video</provides>
     </extension>
@@ -137,34 +104,6 @@
     <platform>all</platform>
   </extension>
 </addon>	
-<addon id="plugin.video.copyandpaste" name="Copy And Paste" version="1.4" provider-name="LT">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.resolveurl" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-      <summary lang="en">Just Thumbs</summary>
-      <summary lang="he"></summary>
-      <description lang="en">Just a shit addon copying the rest with style and shit</description>
-      <description lang="he"></description>
-      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-      <disclaimer lang="he"></disclaimer>
-      <platform>all</platform>
-        <website></website>
-        <video_guide></video_guide>
-    </extension>
-</addon>
 <addon id="plugin.video.f4mTester" version="2.2.5" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
