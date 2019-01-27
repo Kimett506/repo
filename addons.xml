@@ -211,7 +211,7 @@
 </addon>
 <addon id="plugin.video.themagicdragon"
        name="The Magic Dragon"
-       version="1.26"
+       version="1.27"
        provider-name="Magic Dragon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
