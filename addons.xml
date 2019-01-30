@@ -359,20 +359,6 @@
     <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
   </extension>
 </addon>
-<addon id="plugin.program.MaverickWizard" name="[COLORlime]Maverick Wizard[/COLOR]" version="2.1.2" provider-name="Maverick TV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLORlime]Maverick Wizard[/COLOR]</summary>
-    <description lang="en">Maverick Wizard allows you to get access to the latest Maverick Custom Builds.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
 <addon id="plugin.video.now_music" name="[COLOR blue]N[/COLOR]ow [COLOR red]M[/COLOR]usic"	version="2.1.8"	provider-name="Pulse Builds"> 
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
