@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.MaverickWizard" name="[COLORlime]Maverick Wizard[/COLOR]" version="2.1.2" provider-name="Maverick TV">
+<addon id="plugin.program.MaverickWizard" name="[COLORlime]Maverick Wizard[/COLOR]" version="2.1.4" provider-name="Maverick TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
