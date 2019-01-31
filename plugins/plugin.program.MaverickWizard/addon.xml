@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.MaverickWizard" name="[COLORlime]Maverick Wizard[/COLOR]" version="2.1.4" provider-name="Maverick TV">
+<addon id="plugin.program.MaverickWizard" name="[COLORlime]Maverick Wizard[/COLOR]" version="2.1.5" provider-name="Maverick TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
+        <provides>executable</provides>
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLORlime]Maverick Wizard[/COLOR]</summary>
+    <summary lang="en">Maverick Wizard</summary>
     <description lang="en">Maverick Wizard allows you to get access to the latest Maverick Custom Builds.</description>
     <platform>all</platform>
   </extension>
