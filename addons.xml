@@ -272,7 +272,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.program.MaverickWizard" name="[COLORlime]Maverick Wizard[/COLOR]" version="2.1.6" provider-name="Maverick TV">
+<addon id="plugin.program.MaverickWizard" name="[COLORlime]Maverick Wizard[/COLOR]" version="2.1.7" provider-name="Maverick TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
