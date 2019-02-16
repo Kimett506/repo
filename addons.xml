@@ -272,7 +272,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="repository.maverickrepo" name="[COLOR lime]MaverickTV Repo[/COLOR]" version="3.5" provider-name="Maverick TV">
+<addon id="repository.maverickrepo" name="[COLOR lime]MaverickTV Repo[/COLOR]" version="3.6" provider-name="Maverick TV">
 <extension point="xbmc.addon.repository" name="[COLOR lime]MaverickTV Repo[/COLOR]">
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>	
@@ -294,6 +294,11 @@
         <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
     </dir>
+	<dir>
+        <info compressed="false">http://kongmediaservice.tk/addons/addons.xml</info>
+        <checksum>http://kongmediaservice.tk/addons/addons.xml</checksum>
+        <datadir zip="true">http://kongmediaservice.tk/addons/</datadir>
+    </dir>
 
 		<info compressed="false">https://raw.githubusercontent.com/Maverick53/repo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Maverick53/repo/master/addons.xml.md5</checksum>
@@ -304,20 +309,6 @@
 		<description>The MaverickTV Repository for add-on and dependencies</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-<addon id="plugin.program.MaverickWizard" name="[COLORlime]Maverick Wizard[/COLOR]" version="2.1.7" provider-name="Maverick TV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Maverick Wizard</summary>
-    <description lang="en">Maverick Wizard allows you to get access to the latest Maverick Custom Builds.</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 <addon id="script.ezmaintenance"
        name="EZ Maintenance"
