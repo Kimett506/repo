@@ -310,6 +310,20 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+<addon id="plugin.program.MaverickWizard" name="[COLORlime]Maverick Wizard[/COLOR]" version="2.1.7" provider-name="Maverick TV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Maverick Wizard</summary>
+    <description lang="en">Maverick Wizard allows you to get access to the latest Maverick Custom And Community Builds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 <addon id="script.ezmaintenance"
        name="EZ Maintenance"
        version="1.1.0"
