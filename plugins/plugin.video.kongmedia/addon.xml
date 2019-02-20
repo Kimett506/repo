@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.kongmedia" name="Kong Media" version="1.0.0" provider-name="Kong Media">
+  <requires>
+    <import addon="xbmc.python" version="2.7.13"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.dateutil" version="2.5.3"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.pytz" version="2014.2"/>
+    <import addon="script.module.KMS_scripts"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kong Media IPTV</summary>
+    <description lang="en">Kodi addon for Kong Media IPTV service</description>
+    <platform>all</platform>
+  </extension>
+</addon>
